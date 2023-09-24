@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <Navbar title="My 1st React App" mode={mode} modeToggle={toggleMode} />
+      <Navbar title="TextUtils" mode={mode} modeToggle={toggleMode} />
       <Alert alert={alert} />
       <TextField showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />
     </>
